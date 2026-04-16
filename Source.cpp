@@ -22,34 +22,34 @@ struct vpad {
 };
 
 const char* tip(type t) {
-    if (t == razlom) return "Разломная";
-    if (t == hrebet) return "Хребет";
-    return "Желоб";
+    if (t == razlom) return "Р Р°Р·Р»РѕРјРЅР°СЏ";
+    if (t == hrebet) return "РҐСЂРµР±РµС‚";
+    return "Р–РµР»РѕР±";
 }
 
 vpad* init() {
     vpad* vpads = new vpad[N];
 
-    vpads[0] = { "Марианская", 11034, {"Тихий"}, zhelob, 0 };
-    vpads[1] = { "Тонга", 10882, {"Тихий"}, zhelob, 0 };
-    vpads[2] = { "Филиппинская", 10540, {"Тихий"}, zhelob, 0 };
-    vpads[3] = { "Кермадек", 10047, {"Тихий"}, zhelob, 0 };
-    vpads[4] = { "Идзу-Бонин", 9810, {"Тихий"}, zhelob, 0 };
-    vpads[5] = { "Курило-Камчатская", 9604, {"Тихий"}, zhelob, 0 };
-    vpads[6] = { "Пуэрто-Рико", 8648, {"Атлантический"}, zhelob, 0 };
-    vpads[7] = { "Южно-Сандвичева", 8428, {"Атлантический"}, zhelob, 0 };
-    vpads[8] = { "Перуанско-Чилийская", 8065, {"Тихий"}, zhelob, 0 };
-    vpads[9] = { "Алеутская", 7679, {"Тихий"}, zhelob, 0 };
-    vpads[10] = { "Яванская", 7729, {"Индийский"}, zhelob, 0 };
-    vpads[11] = { "Романш", 7760, {"Атлантический"}, razlom, 0 };
-    vpads[12] = { "Среднеокеанский хребет", 4500, {"Атлантический"}, hrebet, 0 };
-    vpads[13] = { "Челенджер", 10920, {"Тихий"}, zhelob, 0 };
-    vpads[14] = { "Гавайский хребет", 5200, {"Тихий"}, hrebet, 0 };
-    vpads[15] = { "Красное море разлом", 3040, {"Индийский"}, razlom, 0 };
-    vpads[16] = { "Лорд-Хау", 9500, {"Тихий"}, zhelob, 0 };
-    vpads[17] = { "Балтимор", 4400, {"Атлантический"}, hrebet, 0 };
-    vpads[18] = { "Африканский разлом", 3800, {"Индийский"}, razlom, 0 };
-    vpads[19] = { "Зондский желоб", 7729, {"Индийский"}, zhelob, 0 };
+    vpads[0] = { "РњР°СЂРёР°РЅСЃРєР°СЏ", 11034, {"РўРёС…РёР№"}, zhelob, 0 };
+    vpads[1] = { "РўРѕРЅРіР°", 10882, {"РўРёС…РёР№"}, zhelob, 0 };
+    vpads[2] = { "Р¤РёР»РёРїРїРёРЅСЃРєР°СЏ", 10540, {"РўРёС…РёР№"}, zhelob, 0 };
+    vpads[3] = { "РљРµСЂРјР°РґРµРє", 10047, {"РўРёС…РёР№"}, zhelob, 0 };
+    vpads[4] = { "РРґР·Сѓ-Р‘РѕРЅРёРЅ", 9810, {"РўРёС…РёР№"}, zhelob, 0 };
+    vpads[5] = { "РљСѓСЂРёР»Рѕ-РљР°РјС‡Р°С‚СЃРєР°СЏ", 9604, {"РўРёС…РёР№"}, zhelob, 0 };
+    vpads[6] = { "РџСѓСЌСЂС‚Рѕ-Р РёРєРѕ", 8648, {"РђС‚Р»Р°РЅС‚РёС‡РµСЃРєРёР№"}, zhelob, 0 };
+    vpads[7] = { "Р®Р¶РЅРѕ-РЎР°РЅРґРІРёС‡РµРІР°", 8428, {"РђС‚Р»Р°РЅС‚РёС‡РµСЃРєРёР№"}, zhelob, 0 };
+    vpads[8] = { "РџРµСЂСѓР°РЅСЃРєРѕ-Р§РёР»РёР№СЃРєР°СЏ", 8065, {"РўРёС…РёР№"}, zhelob, 0 };
+    vpads[9] = { "РђР»РµСѓС‚СЃРєР°СЏ", 7679, {"РўРёС…РёР№"}, zhelob, 0 };
+    vpads[10] = { "РЇРІР°РЅСЃРєР°СЏ", 7729, {"РРЅРґРёР№СЃРєРёР№"}, zhelob, 0 };
+    vpads[11] = { "Р РѕРјР°РЅС€", 7760, {"РђС‚Р»Р°РЅС‚РёС‡РµСЃРєРёР№"}, razlom, 0 };
+    vpads[12] = { "РЎСЂРµРґРЅРµРѕРєРµР°РЅСЃРєРёР№ С…СЂРµР±РµС‚", 4500, {"РђС‚Р»Р°РЅС‚РёС‡РµСЃРєРёР№"}, hrebet, 0 };
+    vpads[13] = { "Р§РµР»РµРЅРґР¶РµСЂ", 10920, {"РўРёС…РёР№"}, zhelob, 0 };
+    vpads[14] = { "Р“Р°РІР°Р№СЃРєРёР№ С…СЂРµР±РµС‚", 5200, {"РўРёС…РёР№"}, hrebet, 0 };
+    vpads[15] = { "РљСЂР°СЃРЅРѕРµ РјРѕСЂРµ СЂР°Р·Р»РѕРј", 3040, {"РРЅРґРёР№СЃРєРёР№"}, razlom, 0 };
+    vpads[16] = { "Р›РѕСЂРґ-РҐР°Сѓ", 9500, {"РўРёС…РёР№"}, zhelob, 0 };
+    vpads[17] = { "Р‘Р°Р»С‚РёРјРѕСЂ", 4400, {"РђС‚Р»Р°РЅС‚РёС‡РµСЃРєРёР№"}, hrebet, 0 };
+    vpads[18] = { "РђС„СЂРёРєР°РЅСЃРєРёР№ СЂР°Р·Р»РѕРј", 3800, {"РРЅРґРёР№СЃРєРёР№"}, razlom, 0 };
+    vpads[19] = { "Р—РѕРЅРґСЃРєРёР№ Р¶РµР»РѕР±", 7729, {"РРЅРґРёР№СЃРєРёР№"}, zhelob, 0 };
 
     return vpads;
 }
@@ -82,7 +82,7 @@ void sort(vpad* a, int n) {
 }
 
 void top3(vpad* a, int n) {
-    cout << "\nОкеаны трех глубочайших:\n";
+    cout << "\nРћРєРµР°РЅС‹ С‚СЂРµС… РіР»СѓР±РѕС‡Р°Р№С€РёС…:\n";
     for (int i = 0; i < 3 && i < n; i++) {
         cout << i + 1 << ". " << a[i].name << " - " << a[i].o.name << endl;
     }
@@ -113,7 +113,7 @@ int filter(vpad* a, int n, vpad* nw, const char* oc) {
 void readnum(vpad* arr, int n, const char* filename) {
     ifstream fin(filename);
     if (!fin.is_open()) {
-        cout << "Не удалось открыть файл " << filename << endl;
+        cout << "РќРµ СѓРґР°Р»РѕСЃСЊ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» " << filename << endl;
         return;
     }
     char name[25];
@@ -122,7 +122,7 @@ void readnum(vpad* arr, int n, const char* filename) {
         for (int i = 0; i < n; i++) {
             if (strcmp(arr[i].name, name) == 0) {
                 arr[i].num = value;
-                cout << "Установлено: " << name << " -> num = " << value << endl;
+                cout << "РЈСЃС‚Р°РЅРѕРІР»РµРЅРѕ: " << name << " -> num = " << value << endl;
                 break;
             }
         }
@@ -154,11 +154,11 @@ vpad* loadbin(int& n, const char* filename) {
 
 void print(vpad* a, int n, const char* msg) {
     cout << endl << msg << endl;
-    if (n == 0) { cout << "Нет данных" << endl; return; }
+    if (n == 0) { cout << "РќРµС‚ РґР°РЅРЅС‹С…" << endl; return; }
     for (int i = 0; i < n; i++) {
-        cout << a[i].name << ", глуб.=" << a[i].depth
-            << ", океан=" << a[i].o.name
-            << ", тип=" << tip(a[i].t)
+        cout << a[i].name << ", РіР»СѓР±.=" << a[i].depth
+            << ", РѕРєРµР°РЅ=" << a[i].o.name
+            << ", С‚РёРї=" << tip(a[i].t)
             << ", num=" << a[i].num << endl;
     }
 }
@@ -167,54 +167,54 @@ int main() {
     setlocale(LC_ALL, "RU");
     vpad* all = init();
 
-    cout << "\n=== ЗАДАНИЕ 10 ===\n";
+    cout << "\n=== Р—РђР”РђРќРР• 10 ===\n";
 
-    cout << "Чтение data.txt..." << endl;
+    cout << "Р§С‚РµРЅРёРµ data.txt..." << endl;
     readnum(all, N, "data.txt");
 
-    cout << "Сохранение в vpad.bin..." << endl;
+    cout << "РЎРѕС…СЂР°РЅРµРЅРёРµ РІ vpad.bin..." << endl;
     savebin(all, N, "vpad.bin");
 
-    cout << "Чтение из vpad.bin..." << endl;
+    cout << "Р§С‚РµРЅРёРµ РёР· vpad.bin..." << endl;
     int loadedN = 0;
     vpad* loaded = loadbin(loadedN, "vpad.bin");
     if (loaded) {
-        cout << "Загружено " << loadedN << " записей\n";
-        print(loaded, loadedN, "СОДЕРЖИМОЕ БИНАРНОГО ФАЙЛА");
+        cout << "Р—Р°РіСЂСѓР¶РµРЅРѕ " << loadedN << " Р·Р°РїРёСЃРµР№\n";
+        print(loaded, loadedN, "РЎРћР”Р•Р Р–РРњРћР• Р‘РРќРђР РќРћР“Рћ Р¤РђР™Р›Рђ");
         delete[] loaded;
     }
     else {
-        cout << "ОШИБКА: не удалось прочитать vpad.bin" << endl;
+        cout << "РћРЁРР‘РљРђ: РЅРµ СѓРґР°Р»РѕСЃСЊ РїСЂРѕС‡РёС‚Р°С‚СЊ vpad.bin" << endl;
     }
 
-    cout << "\n=== ЗАДАНИЕ 9 ===\n";
+    cout << "\n=== Р—РђР”РђРќРР• 9 ===\n";
 
     vpad* allsort = init();
 
-    cout << "Количество впадин глубиной >6000: " << deep(all, N) << endl;
+    cout << "РљРѕР»РёС‡РµСЃС‚РІРѕ РІРїР°РґРёРЅ РіР»СѓР±РёРЅРѕР№ >6000: " << deep(all, N) << endl;
 
     vpad* zheloby = new vpad[N];
     int cnt = filt(all, N, zheloby);
     sort(zheloby, cnt);
     sort(allsort, N);
 
-    print(zheloby, cnt, "Все желобные впадины (по убыванию глубины)");
+    print(zheloby, cnt, "Р’СЃРµ Р¶РµР»РѕР±РЅС‹Рµ РІРїР°РґРёРЅС‹ (РїРѕ СѓР±С‹РІР°РЅРёСЋ РіР»СѓР±РёРЅС‹)");
     top3(allsort, N);
 
-    change(all, N, 8428, "НОВОЕ ИМЯ", "НОВЫЙ ОКЕАН", razlom);
+    change(all, N, 8428, "РќРћР’РћР• РРњРЇ", "РќРћР’Р«Р™ РћРљР•РђРќ", razlom);
 
     int oc_num;
-    cout << "\nВыберите океан:\n1 - Тихий\n2 - Атлантический\n3 - Индийский\n";
+    cout << "\nР’С‹Р±РµСЂРёС‚Рµ РѕРєРµР°РЅ:\n1 - РўРёС…РёР№\n2 - РђС‚Р»Р°РЅС‚РёС‡РµСЃРєРёР№\n3 - РРЅРґРёР№СЃРєРёР№\n";
     cin >> oc_num;
 
     const char* oc = "";
-    if (oc_num == 1) oc = "Тихий";
-    else if (oc_num == 2) oc = "Атлантический";
-    else oc = "Индийский";
+    if (oc_num == 1) oc = "РўРёС…РёР№";
+    else if (oc_num == 2) oc = "РђС‚Р»Р°РЅС‚РёС‡РµСЃРєРёР№";
+    else oc = "РРЅРґРёР№СЃРєРёР№";
 
     vpad* result = new vpad[N];
     int rc = filter(all, N, result, oc);
-    print(result, rc, "Результат фильтрации по океану");
+    print(result, rc, "Р РµР·СѓР»СЊС‚Р°С‚ С„РёР»СЊС‚СЂР°С†РёРё РїРѕ РѕРєРµР°РЅСѓ");
 
     delete[] all;
     delete[] allsort;
