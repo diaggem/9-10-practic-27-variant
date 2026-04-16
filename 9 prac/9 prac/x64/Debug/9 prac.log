@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Приложения\Visual Studio Community\проекты\9 prac\9 prac\Source.cpp(146,15): warning C4244: инициализация: преобразование "std::streamoff" в "long", возможна потеря данных
+  9 prac.vcxproj -> D:\Приложения\Visual Studio Community\проекты\9 prac\x64\Debug\9 prac.exe
